@@ -1,0 +1,325 @@
+[python]
+label = "Python"
+
+    [[python.questions]]
+    question     = "When was the first known use of the word 'quiz'"
+    answers      = ["1781"]
+    alternatives = ["1771", "1871", "1881"]
+
+    [[python.questions]]
+    question     = "Which built-in function can get information from the user"
+    answers      = ["input"]
+    alternatives = ["get", "print", "write"]
+
+    [[python.questions]]
+    question = "What's the purpose of the built-in zip() function"
+    answers = ["To iterate over two or more sequences at the same time"]
+    alternatives = [
+        "To combine several strings into one",
+        "To compress several files into one archive",
+        "To get information from the user",
+    ]
+
+    [[python.questions]]
+    question     = "What does dict.get(key) return if key isn't found in dict"
+    answers      = ["None"]
+    alternatives = ["key", "True", "False"]
+
+    [[python.questions]]
+    question = "How do you iterate over both the indices and elements in an iterable"
+    answers = ["enumerate(iterable)"]
+    alternatives = [
+        "enumerate(iterable, start=1)",
+        "range(iterable)",
+        "range(iterable, start=1)",
+    ]
+
+    [[python.questions]]
+    question = "What's the official name of the := operator"
+    answers = ["Assignment expression"]
+    alternatives = [
+        "Named expression",
+        "Walrus operator",
+        "Colon equals operator",
+    ]
+
+    [[python.questions]]
+    question = "What's one effect of calling random.seed(42)"
+    answers = ["The random numbers are reproducible."]
+    alternatives = [
+        "The random numbers are more random.",
+        "The computer clock is reset.",
+        "The first random number is always 42.",
+    ]
+
+    [[python.questions]]
+    question     = "Which version of Python is the first with TOML support built in"
+    answers      = ["3.11"]
+    alternatives = ["3.9", "3.10", "3.12"]
+
+    [[python.questions]]
+    question     = "How can you run a Python script named quiz.py"
+    answers      = ["python quiz.py", "python -m quiz"]
+    alternatives = ["python quiz", "python -m quiz.py"]
+    hint         = "One option uses the filename, and the other uses the module name."
+
+    [[python.questions]]
+    question     = "What's the name of the list-like data structure in TOML"
+    answers      = ["Array"]
+    alternatives = ["List", "Sequence", "Set"]
+
+    [[python.questions]]
+    question = "What's a PEP"
+    answers = ["A Python Enhancement Proposal"]
+    alternatives = [
+        "A Pretty Exciting Policy",
+        "A Preciously Evolved Python",
+        "A Potentially Epic Prize",
+    ]
+    hint = "PEPs are used to evolve Python."
+    explanation = """
+    Python Enhancement Proposals (PEPs) are design documents that provide
+    information to the Python community. PEPs are used to propose new features
+    for the Python language, to collect community input on an issue, and to
+    document design decisions made about the language.
+    """
+
+    [[python.questions]]
+    question = "How can you add a docstring to a function"
+    answers = [
+        "By writing a string literal as the first statement in the function",
+        "By assigning a string to the function's .__doc__ attribute",
+    ]
+    alternatives = [
+        "By using the built-in @docstring decorator",
+        "By returning a string from the function",
+    ]
+    hint = "They are parsed from your code and stored on the function object."
+    explanation = """
+    Docstrings document functions and other Python objects. A docstring is a
+    string literal that occurs as the first statement in a module, function,
+    class, or method definition. Such a docstring becomes the .__doc__ special
+    attribute of that object. See PEP 257 for more information.
+
+    There's no built-in @docstring decorator. Many functions naturally return
+    strings. Such a feature can therefore not be used for docstrings.
+    """
+
+    [[python.questions]]
+    question = "When was the first public version of Python released"
+    answers = ["February 1991"]
+    alternatives = ["January 1994", "October 2000", "December 2008"]
+    hint = "The first public version was labeled version 0.9.0."
+    explanation = """
+    Guido van Rossum started work on Python in December 1989. He posted
+    Python v0.9.0 to the alt.sources newsgroup in February 1991. Python
+    reached version 1.0.0 in January 1994. The next major versions,
+    Python 2.0 and Python 3.0, were released in October 2000 and December
+    2008, respectively.
+    """
+
+[capitals]
+label = "Capitals"
+
+    [[capitals.questions]]
+    question = "What's the capital of Norway"
+    answers = ["Oslo"]
+    hint = "Lars Onsager, Jens Stoltenberg, Trygve Lie, and Børge Ousland."
+    alternatives = ["Stockholm", "Copenhagen", "Helsinki", "Reykjavik"]
+    explanation = """
+    Oslo was founded as a city in the 11th century and established as a
+    trading place. It became the capital of Norway in 1299. The city was
+    destroyed by a fire in 1624 and rebuilt as Christiania, named in honor
+    of the reigning king. The city was renamed back to Oslo in 1925.
+    """
+
+    [[capitals.questions]]
+    question = "What's the state capital of Texas, USA"
+    answers = ["Austin"]
+    alternatives = ["Harrisburg", "Houston", "Galveston", "Columbia"]
+    hint = "SciPy is held there each year."
+    explanation = """
+    Austin is named in honor of Stephen F. Austin. It was purpose-built to
+    be the capital of Texas and was incorporated in December 1839. Houston,
+    Harrisburg, Columbia, and Galveston are all earlier capitals of Texas.
+    """
+
+[Ecology]
+label = "Ecology"
+
+    [[Ecology.questions]]
+    question = "which of the following is endangered species ?"
+    answers = ["Tiger"]
+    alternatives = ["Cow", "Tragopan", "Antelope"]
+    
+
+    [[Ecology.questions]]
+    question = "Where is Dudhwa Tiger reserve situated ?"
+    answers = ["Lakhimpur Kheri"]
+    alternatives = ["Sitapur", "Hardoi", "Bahraich"]
+    
+    [[Ecology.questions]]
+    question = "The Indian Institute of Pulses Research (IIPR) is located in which state?"
+    answers = ["Uttar Pradesh"]
+    alternatives = ["Madhya Pradesh", "Gujarat", "Punjab"]
+
+    [[Ecology.questions]]
+    question = "Asthenosphere is located at ?"
+    answers = ["Below Lithosphere"]
+    alternatives = [
+        "Above stratosphere",
+        "Below Ionsphere",
+        "Above Lithosphere"
+    ]
+
+[IndiaCurrentAffairs]
+label = "Indian Current Affairs"
+
+    [[IndiaCurrentAffairs.questions]]
+    question     = "Recently, who has been elected as the new President of the European Council of the European Union?"
+    answers      = ["Antonio Costa"]
+    alternatives = ["Charles Michel","Herman Van Rompuy","Von der Leyen"]
+
+    [[IndiaCurrentAffairs.questions]]
+    question     = "Which day is observed as Goods and Services Tax (GST) Day every year?"
+    answers      = ["1 July"]
+    alternatives = ["2 July", "3 July", "4 July"]
+
+    [[IndiaCurrentAffairs.questions]]
+    question = "Recently, Dick Schoof has been appointed as the Prime Minister of which country?"
+    answers = ["Netherlands"]
+    alternatives = ["Ireland","Poland","Vietnam"]
+
+    [[IndiaCurrentAffairs.questions]]
+    question     = "Recently, which organization announced the New World Soil Health Index at International conference on Soils?"
+    answers      = ["UNESCO"]
+    alternatives = ["UNICEF","UNEP","UNDP"]
+
+    [[IndiaCurrentAffairs.questions]]
+    question = "Recently, which government agency has launched the Sampoornata Abhiyaan?"
+    answers = ["NITI Aayog"]
+    alternatives = ["National Informatics Centre","NABARD", "Ministry of Finance"]
+
+    hint = "Chairperson of this organisation is Prime Minister of India"
+    explanation = """
+    NITI Aayog launched the ‘Sampoornata Abhiyan’ on July 4, 2024, 
+    targeting 100% saturation of 12 key social sector indicators 
+    across 112 Aspirational Districts and 500 Aspirational Blocks. 
+    Running until September 30, the campaign saw enthusiastic 
+    participation from officials, frontline workers, and citizens 
+    nationwide. Events included health camps, cultural programs,
+    and awareness yatras, emphasizing community involvement and 
+    commitment to the campaign’s goals from Jammu and Kashmir to 
+    the Andaman and Nicobar Islands.
+    """    
+
+#GOVERNMENT SCHEMES QUIZ
+[govtschemes]
+label = "Indian Government Schemes"
+
+    [[govtschemes.questions]]
+    question = "What is the share provided by the Centre in implementation of projects under North East Special Infrastructure Development Scheme?"
+    answers = ["100 percent"]
+    hint = "Cent percent"
+    alternatives = ["75 percent","50 percent","25 percent"]
+    explanation = """
+     The North East Special Infrastructure Development Scheme (NESIDS)
+     is a Central Sector Scheme on launched in 2017, under which 100% 
+     centrally funding is provided to the State Governments of North 
+     Eastern Region for the projects of physical infrastructure.
+     Recently, the continuation of the NESIDS with an approved by the 
+     cabinet, for the period from 2022-23 till 2025-26 at an outlay of 
+     Rs.8139.50 crore.
+    """
+
+    [[govtschemes.questions]]
+    question = "Which state launched the Manav Sampada Portal to instill transparency in administrative procedures?"
+    answers = ["Uttar Pradesh"]
+    alternatives = ["Bihar","Gujarat","Andhra Pradesh"]
+    hint = "State whose Chief Minister is Monk"
+    explanation = """
+    The Uttar Pradesh Government launched the Manav Sampada Portal
+    aiming to instil transparency in administrative procedures.
+    This initiative, according to an official statement, intends to bring 
+    the activities of officers and employees from various departments into 
+    the public domain through the portal. Pertinent details concerning their 
+    appointments, leave management, transfers, and retirements will be 
+    accessible on the platform.
+    """
+
+
+#SCIENCE QUIZ
+[science]
+label = "Science and Technology"
+
+    [[science.questions]]
+    question     = "Gnathology is the study of which among the following?"
+    answers      = ["Masticatory System"]
+    alternatives = ["Teeth","Jaws", "Tongue"]
+
+    [[science.questions]]
+    question     = "Biologists have been able to demonstrate the hearing and sound sensory mechanism through the acoustico-lateralis system in which of the following vertebrates ?"
+    answers      = ["fishes"]
+    alternatives = ["amphibians", "snakes", "Birds"]
+
+    [[science.questions]]
+    question = "What is the name of the rover, which is a part of the Chandrayaan 3 mission?"
+    answers = ["Pragyan"]
+    alternatives = [
+    "Surya",
+    "Agni",
+    "Chandra",
+    ]
+
+    [[science.questions]]
+    question     = "Which institution has launched a platform called SnapFlood to contribute flood-related information?"
+    answers      = ["IIT Hyderabad"]
+    alternatives = ["India Meteorological Department",
+    "IISc Bengaluru",
+    "Indian Institute of Tropical Meteorology"]
+
+
+#ECONOMY QUIZ
+[economy]
+label = "Economy"
+
+    [[economy.questions]]
+    question     = "Which among the following is correct regarding Currency Chests?"
+    answers      = ["Storehouses where banknotes and rupee coins are stocked on behalf of the Reserve Bank"]
+    alternatives = [
+        "Store houses where foreign currencies are stocked on behalf of the RBI",
+        "Companies which are authorized to store and deal in Foreign currencies",
+        "Banks authorized by Reserve Bank of India for Currency Exchange"
+    ]
+
+    [[economy.questions]]
+    question     = "An investor or speculator who subscribes to a new issue with the intention of selling them soon after allotment to realize a quick profit is called?"
+    answers      = ["Stag"]
+    alternatives = ["Tall", "Bull", "Bear"]
+
+    
+
+#HISTORY
+[history]
+label = "History"
+
+    [[history.questions]]
+    question = "Where Gautam budhha achieved enlightenment ?"
+    answers = ["Peepal tree, Bodh Gaya, Bihar"]
+    alternatives = ["Varanasi, Banyan tree","Patna,Peepal tree","None"]
+
+    [[history.questions]]
+    question = "What is the name of the World's Most Advanced Arabic Large Language Model, which was released recently?"
+    answers = ["Jais"]
+    alternatives = [
+        "Gyaan",
+        "Ruez",
+        "Rooh"]
+
+    [[history.questions]]
+    question = "The Han dynasty ruled during which of the following period?"
+    answers = ["206 BCE-220 AD"]
+    alternatives = [
+        "225-230 AD",
+        "221-206 BC",
+        "386-589 AD"]
